@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ec_graph"
+    app:startDestination="@id/ECListFragment">
+
+    <fragment
+        android:id="@+id/ECListFragment"
+        android:name="com.cesar.ecfinalmovil.fragments.ECListFragment"
+        android:label="fragment_e_c_list"
+        tools:layout="@layout/fragment_e_c_list" />
+    <fragment
+        android:id="@+id/ECFavoriteFragment"
+        android:name="com.cesar.ecfinalmovil.fragments.ECFavoriteFragment"
+        android:label="fragment_e_c_favorite"
+        tools:layout="@layout/fragment_e_c_favorite" />
+    <fragment
+        android:id="@+id/ECInfoFragment"
+        android:name="com.cesar.ecfinalmovil.fragments.ECInfoFragment"
+        android:label="fragment_e_c_info"
+        tools:layout="@layout/fragment_e_c_info" />
+
+</navigation>
